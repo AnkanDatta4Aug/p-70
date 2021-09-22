@@ -1,0 +1,117 @@
+.hg {
+    width: 240px;
+    height: 240px;
+    border-radius: 300px;
+}
+
+body {
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(black, blue, black, red, black, green, black);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+    background-color: yellow;
+}
+
+#name {
+    font-size: 40px;
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#marqueeStyle {
+    background-color: cyan;
+}
+
+#PJ_Masks {
+    width: 240px;
+    height: 230px
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    background-color: orange;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv h5,
+travel_mainDiv p {
+    margin-left: 20px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.a {
+    width: 270px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+.announcement {
+    background-color: magenta;
+}
+
+#compus_life {
+    background-color: cyan;
+}
+
+#team {
+    background-color: mediumvioletred;
+}
+
+.img-responsive img-thumbnail {
+    width: 80px;
+    height: 70px;
+}
